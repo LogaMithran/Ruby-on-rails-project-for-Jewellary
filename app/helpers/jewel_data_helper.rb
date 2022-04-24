@@ -1,0 +1,2 @@
+module JewelDataHelper
+end

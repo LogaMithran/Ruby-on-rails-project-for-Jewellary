@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  jewelId: 1
+  jewelName: MyString
+  jewelPrice: 1
+  dateofpurchase: 2022-04-23
+
+two:
+  jewelId: 1
+  jewelName: MyString
+  jewelPrice: 1
+  dateofpurchase: 2022-04-23

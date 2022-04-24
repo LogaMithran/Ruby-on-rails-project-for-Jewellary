@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+<table class="table">
+  <tbody>
+    <tr>
+      <td>
+        <%= render @jewel_datum %>
+        <%= link_to "Edit", edit_jewel_datum_path(@jewel_datum), class:"btn btn-dark" %> |
+        
+        <%= link_to "Back", jewel_data_path, class:"btn btn-dark" %> |
+        <%= button_to "Destroy", @jewel_datum, method: :delete , class:"btn btn-dark" %>
+      </td>
+    <tr>
+  </tbody>  
+</table>

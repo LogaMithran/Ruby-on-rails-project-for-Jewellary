@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Jewel data</h1>
+
+<div id="jewel_data">
+  <% @jewel_data.each do |jewel_datum| %>
+    <% if jewel_datum.user==current_user%>
+    <%= render jewel_datum %>
+      <%= link_to "Show", jewel_datum, class:"btn btn-dark" %>
+      <% end %>
+  <% end %>
+</div>
+
+<%= link_to "New", new_jewel_datum_path, class:"btn btn-dark" %>
